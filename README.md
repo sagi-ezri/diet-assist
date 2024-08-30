@@ -46,7 +46,7 @@ diet-assist/
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/diet-assist.git
+git clone https://github.com/sagi-ezri/diet-assist.git
 cd diet-assist
 ```
 
@@ -65,7 +65,7 @@ This will install all the dependencies specified in the `pyproject.toml` file.
 To run the application, use the following command:
 
 ```bash
-poetry run streamlit run diet_assist_app/app.py
+poetry run streamlit run app.py
 ```
 
 This will start a local Streamlit server, and you can access the app in your web browser at `http://localhost:8501`.

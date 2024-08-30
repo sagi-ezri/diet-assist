@@ -1,7 +1,7 @@
 
 import unittest
 from PIL import Image
-from diet_assist_app.image_processing import transform_image
+from diet_assist.image_processing import transform_image
 
 class TestImageProcessing(unittest.TestCase):
     

@@ -6,8 +6,8 @@ def transform_image(image):
         transforms.CenterCrop(224),
         transforms.ToTensor(),
         transforms.Normalize(
-            mean=[0.485, 0.456, 0.406],  # ImageNet means
-            std=[0.229, 0.224, 0.225]    # ImageNet stds
+            mean=[0.485, 0.456, 0.406], 
+            std=[0.229, 0.224, 0.225]
         )
     ])
-    return transform(image).unsqueeze(0)  # Add batch dimension
+    return transform(image).unsqueeze(0)
