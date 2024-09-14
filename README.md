@@ -10,30 +10,6 @@ The **Diet Assist App** is an AI-powered tool designed to help users make inform
 - **Health Recommendations**: Offers advice on whether to eat the detected food based on health goals.
 - **Text-to-Speech**: Converts the recommendation to speech and plays the audio within the app.
 
-## Project Structure
-
-The project is organized as follows:
-
-```
-diet-assist/
-│
-├── diet_assist_app/           # Main application directory
-│   ├── __init__.py            # Initialization file for the module
-│   ├── app.py                 # Main application script
-│   ├── utils.py               # Utility functions
-│   ├── openai_api.py          # Functions to interact with the OpenAI API
-│   ├── image_processing.py    # Image processing and transformation functions
-│   ├── model.py               # Functions to load and classify images using a trained model
-│
-├── tests/                     # Directory for test files
-│   └── test_image_processing.py  # Test cases for image processing module
-│
-├── pyproject.toml             # Project metadata and dependencies (for Poetry)
-├── poetry.lock                # Locked dependencies file (for Poetry)
-├── README.md                  # Project documentation (this file)
-└── .gitignore                 # Git ignore file for ignoring unnecessary files in version control
-```
-
 ## Installation
 
 ### Prerequisites
